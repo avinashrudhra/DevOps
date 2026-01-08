@@ -4,9 +4,9 @@
 > From Programming Fundamentals to Production-Ready Kubernetes Deployments
 
 [![DevOps](https://img.shields.io/badge/DevOps-Complete-blue.svg)](https://github.com)
-[![Learning Path](https://img.shields.io/badge/Learning-33%20Months-green.svg)](https://github.com)
-[![Interview Prep](https://img.shields.io/badge/Interview-1100%2B%20Questions-orange.svg)](https://github.com)
-[![Exercises](https://img.shields.io/badge/Exercises-450%2B-red.svg)](https://github.com)
+[![Learning Path](https://img.shields.io/badge/Learning-45%20Months-green.svg)](https://github.com)
+[![Interview Prep](https://img.shields.io/badge/Interview-1470%2B%20Questions-orange.svg)](https://github.com)
+[![Exercises](https://img.shields.io/badge/Exercises-585%2B-red.svg)](https://github.com)
 
 ---
 
@@ -26,7 +26,7 @@ This is a **comprehensive, production-ready learning collection** covering the *
 
 ## 📦 Complete Package List
 
-This collection includes **11 comprehensive technology packages**, each containing **6 detailed files**:
+This collection includes **15 comprehensive technology packages**, each containing **6 detailed files**:
 
 ### 🐍 **1. Python Scripting**
 > **Programming & Automation Foundation**
@@ -204,17 +204,81 @@ Implement GitOps workflows for Kubernetes deployments.
 
 ---
 
+### 📊 **12. Prometheus & Grafana**
+> **Monitoring & Observability**
+
+Master production monitoring, alerting, and visualization for cloud-native infrastructure.
+
+📁 **[/prometheus-grafana](prometheus-grafana/)**
+- ✅ 12-Week Learning Roadmap
+- ✅ Quick Reference (PromQL & Commands)
+- ✅ 30+ Hands-On Exercises
+- ✅ Troubleshooting Guide
+- ✅ 80+ Interview Questions
+
+**Key Topics:** Prometheus architecture, PromQL, metric types, alerting, Alertmanager, Grafana dashboards, SLI/SLO monitoring, Kubernetes monitoring
+
+---
+
+### 🏗️ **13. Terraform (Azure Focused)**
+> **Infrastructure as Code**
+
+Automate Azure infrastructure provisioning with declarative configuration.
+
+📁 **[/terraform](terraform/)**
+- ✅ 12-Week Learning Roadmap
+- ✅ Quick Reference (HCL Syntax & Azure Resources)
+- ✅ 30+ Hands-On Exercises
+- ✅ Troubleshooting Guide
+- ✅ 80+ Interview Questions
+
+**Key Topics:** HCL syntax, Azure provider, state management, modules, workspaces, remote backends, Azure resources (VNet, AKS, SQL, etc.), CI/CD integration
+
+---
+
+### ☁️ **14. Azure Resources Tutorial**
+> **Cloud Platform for DevOps**
+
+Master Azure resources and services from a DevOps engineering perspective.
+
+📁 **[/azure](azure/)**
+- ✅ 16-Week Learning Roadmap
+- ✅ Quick Reference (Azure CLI & PowerShell Commands)
+- ✅ 40+ Hands-On Tutorials
+- ✅ Troubleshooting Guide (85+ Scenarios)
+- ✅ 120+ Interview Questions
+
+**Key Topics:** Azure fundamentals, networking (VNets, NSGs, Load Balancers), compute (VMs, VMSS, AKS), storage & databases, security & identity, monitoring, CI/CD integration, architecture design patterns
+
+---
+
+### 🔄 **15. GitHub Actions**
+> **Modern CI/CD & Automation**
+
+Master GitHub's native CI/CD platform for automated workflows and deployments.
+
+📁 **[/github-actions](github-actions/)**
+- ✅ 10-Week Learning Roadmap
+- ✅ Quick Reference (Workflow Syntax & Patterns)
+- ✅ 35+ Hands-On Exercises
+- ✅ Troubleshooting Guide (60+ Scenarios)
+- ✅ 90+ Interview Questions
+
+**Key Topics:** Workflows, events & triggers, jobs & steps, matrix builds, reusable workflows, composite actions, secrets management, self-hosted runners, security best practices, Docker integration, cloud deployments, production patterns
+
+---
+
 ## 📊 Collection Statistics
 
 | Metric | Count |
 |--------|-------|
-| **Total Packages** | **11** |
-| **Total Files** | **66** |
-| **Total Lines of Content** | **110,000+** |
-| **Total Learning Duration** | **33+ Months** |
-| **Interview Questions** | **1,100+** |
-| **Hands-On Exercises** | **450+** |
-| **Troubleshooting Scenarios** | **550+** |
+| **Total Packages** | **15** |
+| **Total Files** | **90** |
+| **Total Lines of Content** | **155,000+** |
+| **Total Learning Duration** | **45+ Months** |
+| **Interview Questions** | **1,470+** |
+| **Hands-On Exercises** | **585+** |
+| **Troubleshooting Scenarios** | **795+** |
 | **Experience Level Coverage** | Beginner → Expert (7+ years) |
 
 ---
@@ -247,6 +311,9 @@ This collection covers the entire DevOps pipeline from code to production:
 │  📦 Git  →  🏗️ Maven  →  🔍 SonarQube  →  🔄 Jenkins  →  🐳 Docker │
 │  Version    Build        Code Quality    CI/CD         Container  │
 │  Control    Automation   & Security      Pipeline     Packaging   │
+│                                                                     │
+│  ☁️ Azure Resources + 🏗️ Terraform (Cloud & IaC)                │
+│  (VMs, AKS, Storage, SQL, Networking, Security)                   │
 └───────────────────────────┬──────────────────────────────────────┘
                             │
 ┌───────────────────────────▼──────────────────────────────────────┐
@@ -254,7 +321,13 @@ This collection covers the entire DevOps pipeline from code to production:
 │  ☸️ Kubernetes  +  ⎈ Helm  +  🔁 ArgoCD                         │
 │  Container         Package      GitOps                           │
 │  Orchestration     Manager      Delivery                         │
-└───────────────────────────────────────────────────────────────────┘
+└───────────────────────────┬─────────────────────────────────────┘
+                            │
+┌───────────────────────────▼──────────────────────────────────────┐
+│              MONITORING & OBSERVABILITY LAYER                     │
+│                    📊 Prometheus & Grafana                        │
+│                  (Metrics, Alerts, Dashboards)                   │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -276,14 +349,17 @@ Start with fundamentals and progress systematically:
 3. 📦 **Git** (2 months) - Version control
 4. 🐳 **Docker** (3 months) - Containerization
 5. ☸️ **Kubernetes** (6 months) - Orchestration
+6. 📊 **Prometheus & Grafana** (3 months) - Monitoring
 
 #### **Path B: Experienced Developer → DevOps**
 Focus on infrastructure and automation:
 1. 🐧 **Linux** (2 months) - System administration
-2. ⚙️ **Ansible** (2 months) - Infrastructure automation
-3. 🐳 **Docker** (2 months) - Containers
-4. 🔄 **Jenkins** (3 months) - CI/CD
-5. ☸️ **Kubernetes** (4 months) - Orchestration
+2. ☁️ **Azure Resources** (4 months) - Cloud platform
+3. 🏗️ **Terraform** (3 months) - Infrastructure as Code
+4. 🐳 **Docker** (2 months) - Containers
+5. 🔄 **Jenkins** (3 months) - CI/CD
+6. ☸️ **Kubernetes** (4 months) - Orchestration
+7. 📊 **Prometheus & Grafana** (2 months) - Monitoring
 
 #### **Path C: Interview Preparation**
 Focus on interview questions across all technologies:
